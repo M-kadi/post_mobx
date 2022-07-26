@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<svg width="205" height="71" xmlns="http://www.w3.org/2000/svg">
+ <g class="layer">
+  <title>Layer 1</title>
+  <text fill="#000000" font-size="24" id="svg_7" style="cursor: move;" transform="matrix(1 0 0 1 0 0)" x="76.5" xml:space="preserve" y="44.5">Posts</text>
+  <polygon cx="17.5" cy="23" edge="31.47" fill="#FF4D4D" id="svg_9" orient="x" points="60.26810836791992,37 41.771799087524414,62.45798110961914 11.844146728515625,52.7338981628418 11.844146728515625,21.266101837158203 41.771799087524414,11.542017698287964 60.26810836791992,37 " shape="regularPoly" sides="5" stroke-width="NaN"/>
+ </g>
+</svg>

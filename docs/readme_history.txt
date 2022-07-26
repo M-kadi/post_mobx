@@ -1,0 +1,2 @@
+C:\Users\Mohammed.Kadi\AndroidStudioProjects\NibaTeknoloji\malientegre_mobile>C:\Android\flutter\bin\flutter.bat packages pub run build_runner build
+D:\AndroidStudioProjects\MyTests\posts_mobx>D:\Android\flutter_2.8.1\bin\flutter.bat packages pub run build_runner build

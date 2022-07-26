@@ -1,0 +1,118 @@
+* backup source code by gradle ==> red_app_admin\android\build.gradle
+    * task myZipApp
+
+
+* use flutter_localizations : Multi Languages
+    * lib\localization\locale\dutch.dart
+    * lib\localization\locale\arabic.dart
+    * lib\localization\locale\english.dart
+    * lib\localization\locale\turkish.dart
+
+    * lib\localization\app_localizations.dart
+    * lib\localization\app_localizations_delegate.dart
+
+
+* use inheritance : Model : Mobx - Store:
+    * base  : pages/_shared/base_model.dart
+
+    * child : pages/users/user_model.dart
+
+
+* Other Models : Model : Mobx - Store:
+    * child : pages\login\login_model.dart
+
+
+* use shared Widgets :
+    widgets/text_field_string.dart
+    widgets/text_field_password.dart
+    widgets/text_field_int.dart
+    widgets/text_field_email.dart
+    widgets/text_field_double.dart
+    widgets/textEditingController.dart
+    widgets/date_time_field.dart
+    widgets/combobox_string.dart
+
+    widgets/save_btn.dart
+    widgets/action_btn.dart
+
+    widgets/form_widget.dart
+    widgets/form_header.dart
+
+    widgets/firestore_data_table.dart
+
+    widgets/StaticWidgets.dart
+
+
+
+* use Dio API : post-get : with json data - cookie
+    dio_api\dio_factory.dart
+    dio_api\content_home_api.dart
+    dio_api\login_api.dart
+
+* use theme : ChangeNotifier ==> service\theme_manager.dart
+    * theme : system, light, dark,
+
+
+* use provider : ChangeNotifier ==> lib\provider_service.dart
+    service\theme_manager.dart
+
+* use SharedPreferences : => lib\preferences_service.dart
+
+
+* Use Firebase : For every Table in firestore
+    firebase/auth_fire.dart
+    firebase/users_fire.dart
+
+
+* Use DataTypes: For connect between : Model/UserList/UserForm
+    data_types/basic_type.dart
+    data_types/combobox_type.dart
+    data_types/datetime_type.dart
+    data_types/double_type.dart
+    data_types/email_type.dart
+    data_types/int_type.dart
+    data_types/string_type.dart
+
+* use getit : dependency injection ==> service\locator.dart
+    * service\preferences_service.dart
+
+    * firebase/auth_fire.dart
+    * firebase/users_fire.dart
+
+    * dio_api\content_home_api.dart
+    * dio_api\login_api.dart
+
+    * pages/users/user_model.dart
+    * pages/login/login_result.dart
+
+    * service\provider_service.dart
+
+
+* use Dashboard ==> (ContentHomeScreen)  pages/content_home_screen/content_home_screen.dart
+
+
+* use SplashScreen ==> (SplashScreen)  pages/splash/splash_screen.dart
+
+
+* use routes  ==> (Routes)  route/route.dart
+    String
+    HOME_SCREEN = '_home_screen',
+    SPLASH_SCREEN = '_splash_screen',
+
+    LOGIN_SCREEN = '_login_screen',
+    FORGET_PASSWORD_SCREEN = '_forget_pasword_screen',
+    NEW_PIN_CODE_SCREEN = '_new_pin_code_screen',
+    VERIFY_PIN_CODE_SCREEN = '_verify_pin_code_screen',
+
+    USERS_LIST  = '_users_list',
+    USERS_FORM  = '_users_form',
+
+    ABOUT_SCREEN  = '_about_screen',
+
+    SETTINGS_SCREEN = '_settings_screen',
+    LANGUAGES_SCREEN = '_languages_screen',
+    THEMES_SCREEN = '_themes_screen',
+    FONT_SIZE_SCREEN = '_font_size_screen',
+
+    CURRENT_SCREEN = ''
+    ;

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "USERS",
+    "value": "",
+    "img": "assets/images/users_dashboard.svg",
+    "imgDark": "assets/images/users_dashboard_dark.svg",
+    "type": "users"
+  },
+  {
+    "id": 2,
+    "title": "SETTINGS",
+    "value": "",
+    "img": "assets/images/settings_dashboard.svg",
+    "imgDark": "assets/images/settings_dashboard_dark.svg",
+    "type": "settings"
+  }
+]
